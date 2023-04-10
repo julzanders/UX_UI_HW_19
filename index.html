@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <!-- site styles -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- javascript -->
+        <script src="js/myscripts.js"></script>
+
+        <!-- load the fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header id="header"> 
+            <!-- logo -->
+            <a href="#header">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <!-- navigation / link -->
+            <nav class="nav-primary">
+                <ul>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+         <!-- hero area -->
+        <section class="hero">
+            <div class="content">
+                <h2 id="hero">Welcome</h2>
+                 <!-- javascript typewriter effect -->  
+                <h1>I'm a 
+                    <a href="" class="typewrite" data-period="2000" data-type='[ "UX Designer", "Writer", "Marketer", "UX Researcher" ]'>
+                      <span class="wrap"></span>
+                    </a>
+                  </h1>
+                  <!-- javascript typewriter effect - end -->  
+                  
+                <h2>based in Portland, OR</h2>
+                <a href="#contact" class="btn">Let's connect</a>
+                <div class="page-down"> <a href="#about">
+                    <img src="images/page-down.png" alt="page-down arrow">
+                </a>
+                </div>
+    
+                
+            </div>
+        </section>
+
+        <!-- About area -->
+        <section class="about">
+            <h3 id="about">About</h3>
+            <div class="container">
+                <h4>I'm Julia Anderson, UX Designer</h4>
+                <p>I am a recent UX graduate with a <strong>design background</strong> and over a <strong>decade of experience in marketing</strong> within the financial services industry.</p>
+
+                <p>Inspired by a genuine desire to help and connect with people, I combine strong analytical and research skills with a user-centered design approach, to <strong>create elegant and effective solutions that help companies make an impact.</strong></p>
+                
+                <p><strong>I genuinely love connecting with people </strong>and learning about what makes them tick. In my free time I am a puzzle-solving, book-obsessed, ocean-loving, true-crime enthusiast and culinary adventurer who is always cooking up a new travel itinerary.</p>
+            </div>
+        </section>
+
+        <!-- Skills area -->
+        <section class="skills">
+            <h3 id="skills">What I do</h3>
+            <div class="flex-container">
+                <div class="skill-card">
+                    <img src="images/card-icon-design.png" alt="UX design icon">
+                    <h4>UX/UI Design</h4>
+                    <p>Carefully craft user experiences and thoughtfully designed interfaces that engage and delight your audience</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/card-icon-research.png" alt="UX research icon">
+                    <h4>UX Research</h4>
+                    <p>Conduct comprehensive UX research that uncovers insightful user needs and informs data-driven design decisions</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/card-icon-marketing.png" alt="Marketing icon">
+                    <h4>Marketing</h4>
+                    <p> Combine strategy and creative flair to deliver innovative and effective solutions that drive growth and engage your audience</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/card-icon-writing.png" alt="Writing icon">
+                    <h4>Writing</h4>
+                    <p>Create compelling copy that captures the essence of your message and resonates with your audience</p>
+                </div>
+            </div>
+            <a href="#" class="btn btn-primary">Download Résumé</a>
+        </section>
+
+        <!-- Work area -->
+
+        <!-- My Work Section Constructed using CSS Grid -->
+
+        <section class="work">
+            <h3 id="work">My Work</h3>
+            <div class="work-slider">
+              <div class="grid-item">
+                <a href="#">
+                <img src="images/bee-project-screens.png" alt="PMBA preview images" width="350" height="350">
+                    <div class="grid-item-overlay">
+                    <h4>Nonprofit<br>Website Redesign</h4>
+                    <p>Redesigned the <strong>Portland Metro Beekeepers Association</strong> website to highlight their mission and resources while still feeling welcoming to users and future members</p>
+                    </div>
+                </a>
+              </div>
+              <div class="grid-item">
+                <img src="images/ed-project-screens.png" alt="Department of Ed preview images" width="350" height="350">
+                <div class="grid-item-overlay">
+                    <h4>Government Agency<br>Website Redesign</h4>
+                    <p>Redesigned the <strong>US Department of Education</strong> website to improve navigation experience, reduce overwhelming presentation of resources and refresh the overall look & feel</p>
+                    </div>
+              </div>
+            </div>
+          </section>
+          
+
+         <!-- Contact area -->
+         <section class="contact">
+            <h3 style="color:white;" id="contact">Contact</h3>
+            <div class="container">
+                <div><img src="images/icon-arrow.png" alt="Arrow pointing at contact options">
+                </div>
+                <div class="flex-container">
+                    <div class="email-wrap">
+                        <a href="mailto: julz.anders@gmail.com">
+                            <img src="images/icon-email.png" alt="Email">
+                        </a>
+                        <h5><a href="mailto: julz.anders@gmail.com">email me</a></h5>
+                    </div>
+                    <div class="email-wrap">
+                        <a href="#">
+                            <img src="images/icon-calendar.png" alt="Calendar">
+                        </a>
+                        <h5><a href="#">let's meet</a></h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- footer -->
+        <footer>
+            <nav class="nav-primary">
+                <ul>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            
+           
+            <div class="social">
+                <img src="images/linkedin.png" alt="linkedin" height="24px" width="24px">
+                <img src="images/twitter.png" alt="twitter" height="24px" width="24px">
+                Copyright 2023
+            
+                
+            </div>
+       
+        </footer>
+
+    </body>
+    
+</html>
