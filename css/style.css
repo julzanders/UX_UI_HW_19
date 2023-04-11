@@ -335,6 +335,69 @@ gap: 63px;
 
 /*--------- my work section - end --------------*/
 
+/*--------- testimonials section - start --------------*/
+
+.testimonials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 95px;
+  gap: 63px;
+  background: #F7F7F5;
+  }
+
+  .testimonial-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 60px;
+   
+  }
+  
+  .testimonial-card {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  gap: 20px;
+  background-color: white;
+  }
+
+ .testimonial-card p {
+  padding-top: 0;
+  }
+
+  .author {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  }
+
+  /* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  
+ 
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+  
+  
+/*--------- testimonials section - end --------------*/
+
 /*--------- contact section - start --------------*/
 
 .contact{
