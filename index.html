@@ -61,7 +61,7 @@
         </section>
 
         <!-- About area -->
-        <section class="about">
+        <section class="about" data-emergence="hidden">
             <h3 id="about">About</h3>
             <div class="container">
                 <h4>I'm Julia Anderson, UX Designer</h4>
@@ -74,7 +74,7 @@
         </section>
 
         <!-- Skills area -->
-        <section class="skills">
+        <section class="skills" data-emergence="hidden">
             <h3 id="skills">What I do</h3>
             <div class="flex-container">
                 <div class="skill-card">
@@ -108,7 +108,7 @@
 
         <!-- My Work Section Constructed using CSS Grid -->
 
-        <section class="work">
+        <section class="work" data-emergence="hidden">
             <h3 id="work">My Work</h3>
             <div class="work-slider">
               <div class="grid-item">
@@ -132,7 +132,7 @@
           
 
          <!-- Contact area -->
-         <section class="contact">
+         <section class="contact" data-emergence="hidden">
             <h3 style="color:white;" id="contact">Contact</h3>
             <div class="container">
                 <div><img src="images/icon-arrow.png" alt="Arrow pointing at contact options">
@@ -181,12 +181,16 @@
             </div>
        
         </footer>
-
+ <!-- javascript -->
+ <script src="js/emergence.min.js"></script>
+ <script>
+   emergence.init();
+ </script>
+ <script src="js/myscripts.js"></script>
+ <script src="js/index.js"></script>
     </body>
 
-    <!-- javascript -->
-        <script src="js/myscripts.js"></script>
-        <script src="js/index.js"></script>
+   
     
     
 </html>

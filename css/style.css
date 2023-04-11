@@ -121,6 +121,7 @@ p {
 	text-transform: uppercase;
 	text-decoration: none;
   color: white;
+  transition: color 300ms ease;
 
 }
 
@@ -186,7 +187,16 @@ p {
   align-items: center;
   padding: 80px 20vw;
   }
-
+  
+  [data-emergence] {
+    transition: all 3s ease;
+  }
+  [data-emergence=hidden] {
+    opacity: .1;
+  }
+  [data-emergence=visible] {
+    opacity: 1;
+  }
 /*--------- about section - end --------------*/
 
 /*--------- my skills section - start --------------*/
