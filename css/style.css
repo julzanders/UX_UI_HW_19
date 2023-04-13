@@ -319,13 +319,13 @@ gap: 63px;
 .grid-item .grid-item-overlay h4 {
   margin-top: 0;
   margin-bottom: 10px;
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 .grid-item .grid-item-overlay p {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .grid-item .grid-item-overlay h4,
@@ -606,6 +606,7 @@ q {
   .grid-item:focus .grid-item-overlay {
     opacity: 1;
   }
+  
 }
 
 
