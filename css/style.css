@@ -252,6 +252,49 @@ text-align: center;
 
 /*--------- my skills section - end --------------*/
 
+/*--------- test work section - start --------------*/
+
+
+.work-test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 95px;
+  gap: 63px;
+  background: #F7F7F5;
+  
+  }
+  
+  .work-test-flex-container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    justify-content: center;
+    min-width: 700px;
+   
+  }
+  
+  .work-test-skill-card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 20px;
+  border: 1px solid rgba(170, 163, 163, 1);
+  background-color: white;
+  }
+  
+  .work-test-skill-card p{
+  text-align: center;
+  padding-top: 0%;
+  }
+  
+
+
 /*--------- my work section - start --------------*/
 
 .work{
@@ -598,6 +641,29 @@ q {
     font-size: 2.5em;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
+  }
+
+  .work-test-flex-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    justify-content: center;
+    min-width: 350px;
+   
+  }
+  
+  .work-test-skill-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 20px;
+  border: 1px solid rgba(170, 163, 163, 1);
+  background-color: white;
   }
   
  }
