@@ -261,7 +261,7 @@ text-align: center;
   align-items: center;
   padding: 80px 95px;
   gap: 63px;
-  background: #F7F7F5;
+  background: white;
   
   }
   
@@ -284,11 +284,10 @@ text-align: center;
   align-items: center;
   padding: 40px 20px;
   gap: 20px;
-  border: 1px solid rgba(170, 163, 163, 1);
-  background-color: white;
+  background-color: #F7F7F5;
   }
   
-  .work-test-skill-card p{
+  .work-test-skill-card p, .work-test-skill-card h4{
   text-align: center;
   padding-top: 0%;
   }
@@ -662,8 +661,7 @@ q {
   align-items: center;
   padding: 40px 20px;
   gap: 20px;
-  border: 1px solid rgba(170, 163, 163, 1);
-  background-color: white;
+  background-color: #F7F7F5;
   }
   
  }
