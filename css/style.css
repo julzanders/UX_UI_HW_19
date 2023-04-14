@@ -392,31 +392,6 @@ gap: 63px;
   gap: 63px;
   background: #F7F7F5;
   }
-/*--------- Slideshow starter css
-  .testimonial-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 60px;
-   
-  }
-  
-  .testimonial-card {
-  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px;
-  gap: 20px;
-  background-color: white;
-  }
-
- .testimonial-card p {
-  padding-top: 0;
-  }
- --------------*/
 
   /*--------- slider ----------------------*/
 
