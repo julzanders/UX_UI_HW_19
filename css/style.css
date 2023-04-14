@@ -192,7 +192,7 @@ p {
   }
   
   [data-emergence] {
-    transition: all 3s ease;
+    transition: all 2s ease;
   }
   [data-emergence=hidden] {
     opacity: .1;
@@ -200,6 +200,7 @@ p {
   [data-emergence=visible] {
     opacity: 1;
   }
+
 /*--------- about section - end --------------*/
 
 /*--------- my skills section - start --------------*/
@@ -305,8 +306,6 @@ gap: 63px;
 
 }
 
-
-
 .grid-item{
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(170, 163, 163, 1);
@@ -376,11 +375,9 @@ gap: 63px;
 }
 
 
-
-
-
-
 /*--------- my work section - end --------------*/
+
+
 
 /*--------- testimonials section - start --------------*/
 
@@ -393,7 +390,7 @@ gap: 63px;
   background: #F7F7F5;
   }
 
-  /*--------- slider ----------------------*/
+/*--------- slider ----------------------*/
 
   /* Slideshow container */
 .slideshow-container {
